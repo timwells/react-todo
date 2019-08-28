@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
+
 // import uuid from 'uuid'
 
 import Header from './components/layout/Header';
@@ -63,7 +64,6 @@ class App extends Component {
           { todos: [...this.state.todos, res.data]}
         )
       );
-
   }
 
   render() {

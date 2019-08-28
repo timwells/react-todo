@@ -14,7 +14,7 @@ export class TodoItem extends Component {
   markComplete= (e) =>{ console.log(this.props) }
 
   render() {
-    // Destructing
+    // Destructing object
     const {id, title} = this.props.todo
     return (
       <div style={this.getStyle()}>
